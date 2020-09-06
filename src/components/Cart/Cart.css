@@ -1,0 +1,24 @@
+.cart {
+  margin-top: 10px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+}
+.cart .header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.cart .body > div {
+  display: flex;
+  justify-content: space-between;
+}
+.cart .body > div:nth-last-child(2) {
+  color: #ff331e;
+  font-size: 1.3em;
+  font-weight: 400;
+  margin: 10px 0 20px;
+}
+.checkout-btn {
+  padding-left: 40px;
+  padding-top: 5px;
+}
